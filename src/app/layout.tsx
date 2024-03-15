@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: any) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
